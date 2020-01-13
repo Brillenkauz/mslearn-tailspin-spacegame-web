@@ -32,7 +32,7 @@ steps:
 - task: gulp@1
   displayName: 'Run gilp tasks'
 
-- script: 'echo "$(BuildDefinitionName), $(Build.BuildId), $(Build.BuildNumber" > buildinfo.txt'
+- script: 'echo "$(BuildDefinitionName), $(Build.BuildId), $(Build.BuildNumber)" > buildinfo.txt'
   displayName: 'write build info'
   workingDirectory: Tailspin.SpaceGame.Web/wwwroot
 

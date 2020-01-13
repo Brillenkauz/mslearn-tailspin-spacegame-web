@@ -6,7 +6,7 @@ steps:
   displayName: 'Build the project - ${{ parameters.buildConfiguration}}'
   inputs:
     command: 'build'
-    arguments: '--no-restore --confuguration ${{ parameters.buldConfiguration}}'
+    arguments: '--no-restore --configuration ${{ parameters.buldConfiguration}}'
     projects. '**/*.csproj'
 
 -task: DotNetCoreCLI@2
